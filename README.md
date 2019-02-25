@@ -10,5 +10,5 @@ Install:
   >npm install
 
 Run:
-To run the server you just need to hint in the current Terminal
-3- >nodemon server.js
+3- To run the server you just need to hint in the current Terminal
+  >nodemon server.js
