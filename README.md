@@ -1,18 +1,17 @@
-# dropper_server
-Nodejs server api to handle queries and create zip files
+# Tolotra Malagasy dropper-server
+
+This is a Nodejs server api that can handle queries from Tolotra Malagasy application in order to creaate zip files
 
 Requierments: 
 Nodejs 8 or Higher
 
-Install:
-1- Install Nodejs 
-2- Go to project root and run in your terminal to install all dependencies: 
-  >npm install
+Install for Ubuntu:
+1- Install Nodejs by following this [tutorial](https://doc.ubuntu-fr.org/nodejs)
+2- Then run on the root of your project 
+``` javascript
+npm install && nodemon server.js
+```
 
-Run:
-3- To run the server you just need to hint in the current Terminal
-  >nodemon server.js
-
-Results:
-ImageFiles and informations can be retrieved inside uploads folder after sending them through FormData object 
+## Results:
+Image files and informations can be retrieved inside uploads folder after sending them through FormData object 
 Zip file will be located in storage folder
